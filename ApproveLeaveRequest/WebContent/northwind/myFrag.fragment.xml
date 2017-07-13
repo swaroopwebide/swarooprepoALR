@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	
+	<Dialog title="Sort by your choice" id="myDialog" width="auto">
+		<content>
+			
+			<l:HorizontalLayout class="sapUiContentPadding">
+				
+				<Button width="100px" text="Name" press="openSortDialog" id="_nameSortingId" class="sapUiTinyMargin buttonTextFont"></Button>
+				<Button width="100px" text="Id" press="openSortDialog" id="_idSortingId" class="sapUiTinyMargin buttonTextFont"></Button>
+				<Button width="100px" text="Default" press="openSortDialog" id="_noSortingId" class="sapUiTinyMargin buttonTextFont"></Button>
+				
+			</l:HorizontalLayout>
+		</content>
+	</Dialog>
+</core:FragmentDefinition>
